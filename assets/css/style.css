@@ -309,7 +309,7 @@ input[type=text], input[type=email], input[type="password"], select, textarea {
         padding: 30px;
     }
     
-
+}
 
 /* Tablet */
 
@@ -319,13 +319,3 @@ input[type=text], input[type=email], input[type="password"], select, textarea {
 /* Desktop */
 /* Responsive with Flex */
 /*@media only screen and (min-width: 800px) {}*/
-    
-    
-    
-        
-
-
-
-
-
-
