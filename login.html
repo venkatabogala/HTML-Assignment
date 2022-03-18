@@ -5,49 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe Blog</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <header>
-       <nav>
-        <img src="./assets/images/200.png" alt=" " width="50">
-           <ul>
-               <li><a href="/">Home</a></li>
-               <li><a href="./about.html">About</a></li>
-               <li><a href="./contactus.html">Contact Us</a></li>
-               <li><a href="./signup.html">Sign Up</a></li>
-            </ul>
-
-       </nav>
-    </header>
-    <hr>
-    <main>
-        <h2>Account Login</h2>
-        <form action="/">
-            <label for="name">Name</label>
-            <input id="name" type="text" required ><br><br>
-            <label for="password">Password</label>
-            <input id="password" type="password" required ><br><br>
-            <input type="checkbox">
-            <label>Remember me</label><br><br>
-            <input type="submit" value="Login"><br><br>
-            <strong>Don't have an account?</strong>
-            <button>Sign Up</button>
-            <p><strong>Forgot Password?</strong></p>
-        </form>
-    </main><br>
-    <hr><br>
-    
-    <footer>
-        <nav>
-            <img src="./assets/images/200.png" alt=" " width="50">
-               <ul>
-                   <li><a href="/">Home</a></li>
-                   <li><a href="./about.html">About</a></li>
-                   <li><a href="./contactus.html">Contact Us</a></li>
-               </ul>
-    
-        </nav>
-    </footer>
-
+    <div class="container">
+        <div class="item-a">
+            <header id="top-header">
+                <img src="./assets/images/200.png" alt="content" >
+                <nav> 
+                    <ul id="top-nav">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./contactus.html">Contact Us</a></li>
+                        <li><a href="./signup.html">Sign Up</a></li>
+                    </ul>
+                </nav>
+             </header> 
+        </div>
+        <div class="item-b">
+            <main>
+                <section>
+                    <div id="sign-up">
+                        <h2 style="color:hotpink">Account Login</h2>
+                        <form action="/">
+                            <label for="name">UserName</label>
+                            <input id="name" type="text" name="name" required ><br><br>
+                            <label for="password">Password</label>
+                            <input id="password" type="password" name="password" required ><br><br>
+                            <input type="checkbox">
+                            <label for="remember">Remember me</label><br><br>
+                            <input type="submit" value="Login"><br><br>
+                            <strong>Don't have an account?</strong>
+                            <button><strong><a style="color:white" href="./signup.html">Sign Up</a></strong></button>
+                            <p><strong><a href="./login.html">Forgot Password?</a></strong></p>
+                        </form>
+                    </div>
+                </section>        
+            </main>
+        </div>    
+        <div class="item-c">
+            <footer id="bottom-footer">
+                <img src="./assets/images/200.png" alt=" " width="50">
+                   <nav>
+                        <ul id="bottom-nav">
+                           <li><a href="/">Home</a></li>
+                           <li><a href="./about.html">About</a></li>
+                           <li><a href="./contactus.html">Contact Us</a></li>
+                        </ul>
+                    </nav>
+            </footer>
+        </div>
+    </div> 
 </body>
 </html>
